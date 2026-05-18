@@ -32,5 +32,6 @@ jobs:
       - name: Run Testsigma Automation Suites
         run: |
           cd ${{ github.workspace }}/testsigma
-          chmod a+x run_smoke_tests.sh
-          ./run_smoke_tests.sh
+          chmod a+x Create tesarun_smoke_tests.sh
+          ./Create tesarun_smoke_tests.sh
+
