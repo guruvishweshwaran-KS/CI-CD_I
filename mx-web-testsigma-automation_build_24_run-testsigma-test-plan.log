@@ -1,16 +1,29 @@
 _bk;t=1775122390867~~~ Bootstrapping phases plugin,checkout
 _bk;t=1775122390893~~~ Running agent environment hook
 _bk;t=1775122390894[90m$[0m /home/agent/buildkite/hooks/environment
-_bk;t=1775122390919:key: Setting up Github SSH Info
-_bk;t=1775122390920== Setting up Vault ==
-_bk;t=1775122390974  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-_bk;t=1775122390974                                 Dload  Upload   Total   Spent    Left  Speed
-_bk;t=1775122390974  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  2042  100   694  100  1348   3861   7500 --:--:-- --:--:-- --:--:-- 11344
-_bk;t=1775122391317# github.com:22 SSH-2.0-7978730
-_bk;t=1775122391589# github.com:22 SSH-2.0-7978730
-_bk;t=1775122391904# github.com:22 SSH-2.0-7978730
-_bk;t=1775122392200# github.com:22 SSH-2.0-7978730
-_bk;t=1775122392265# github.com:22 SSH-2.0-7978730
+_bk;t=1775122390919:key: Setting up Github SSH Info
+
+_bk;t=1775122390920== Setting up Vault ==
+
+_bk;t=1775122390974  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+
+_bk;t=1775122390974                                 Dload  Upload   Total   Spent    Left  Speed
+jh
+_bk;t=1775122390974
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100  2042  100   694  100  1348   3861   7500 --:--:-- --:--:-- --:--:-- 11344
+
+_bk;t=1775122391317# github.com:22 SSH-2.0-7978730
+
+_bk;t=1775122391589# github.com:22 SSH-2.0-7978730
+
+_bk;t=1775122391904# github.com:22 SSH-2.0-7978730
+
+_bk;t=1775122392200# github.com:22 SSH-2.0-7978730
+
+_bk;t=1775122392265# github.com:22 SSH-2.0-7978730
+
 _bk;t=1775122392370[90m# VAULT_ADDR added[0m
 _bk;t=1775122392370[90m# JENKINS_URL added[0m
 _bk;t=1775122392370[90m# VAULT_TOKEN added[0m
@@ -19,7 +32,8 @@
 _bk;t=1775122392371~~~ Preparing working directory
 _bk;t=1775122392371[90m# Creating "/workspace/build/buildkite"[0m
 _bk;t=1775122392371[90m$[0m cd /workspace/build/buildkite
-_bk;t=1775122392379Pseudo-terminal will not be allocated because stdin is not a terminal.
+_bk;t=1775122392379Pseudo-terminal will not be allocated because stdin is not a terminal.
+
 _bk;t=1775122392544# github.com:22 SSH-2.0-7978730
 _bk;t=1775122392609# github.com:22 SSH-2.0-7978730
 _bk;t=1775122392905# github.com:22 SSH-2.0-7978730
@@ -27,38 +41,219 @@
 _bk;t=1775122393489# github.com:22 SSH-2.0-7978730
 _bk;t=1775122393556[90m# Added host "github.com" to known hosts at "/home/agent/.ssh/known_hosts"[0m
 _bk;t=1775122393556[90m$[0m git clone -v -- git@github.com:collectivehealth/mx-web-testsigma-automation.git .
-_bk;t=1775122393558Cloning into '.'...
-_bk;t=1775122394640remote: Enumerating objects: 47, done.[K_bk;t=1775122394640
-_bk;t=1775122394640remote: Counting objects:   2% (1/47)[K_bk;t=1775122394640remote: Counting objects:   4% (2/47)[K_bk;t=1775122394640remote: Counting objects:   6% (3/47)[K_bk;t=1775122394640remote: Counting objects:   8% (4/47)[K_bk;t=1775122394640remote: Counting objects:  10% (5/47)[K_bk;t=1775122394640remote: Counting objects:  12% (6/47)[K_bk;t=1775122394640remote: Counting objects:  14% (7/47)[K_bk;t=1775122394640remote: Counting objects:  17% (8/47)[K_bk;t=1775122394640remote: Counting objects:  19% (9/47)[K_bk;t=1775122394640remote: Counting objects:  21% (10/47)[K_bk;t=1775122394640remote: Counting objects:  23% (11/47)[K_bk;t=1775122394641remote: Counting objects:  25% (12/47)[K_bk;t=1775122394641remote: Counting objects:  27% (13/47)[K_bk;t=1775122394641remote: Counting objects:  29% (14/47)[K_bk;t=1775122394641remote: Counting objects:  31% (15/47)[K_bk;t=1775122394641remote: Counting objects:  34% (16/47)[K_bk;t=1775122394641remote: Counting objects:  36% (17/47)[K_bk;t=1775122394641remote: Counting objects:  38% (18/47)[K_bk;t=1775122394641remote: Counting objects:  40% (19/47)[K_bk;t=1775122394641remote: Counting objects:  42% (20/47)[K_bk;t=1775122394641remote: Counting objects:  44% (21/47)[K_bk;t=1775122394641remote: Counting objects:  46% (22/47)[K_bk;t=1775122394641remote: Counting objects:  48% (23/47)[K_bk;t=1775122394641remote: Counting objects:  51% (24/47)[K_bk;t=1775122394641remote: Counting objects:  53% (25/47)[K_bk;t=1775122394641remote: Counting objects:  55% (26/47)[K_bk;t=1775122394641remote: Counting objects:  57% (27/47)[K_bk;t=1775122394641remote: Counting objects:  59% (28/47)[K_bk;t=1775122394641remote: Counting objects:  61% (29/47)[K_bk;t=1775122394641remote: Counting objects:  63% (30/47)[K_bk;t=1775122394641remote: Counting objects:  65% (31/47)[K_bk;t=1775122394641remote: Counting objects:  68% (32/47)[K_bk;t=1775122394641remote: Counting objects:  70% (33/47)[K_bk;t=1775122394641remote: Counting objects:  72% (34/47)[K_bk;t=1775122394641remote: Counting objects:  74% (35/47)[K_bk;t=1775122394641remote: Counting objects:  76% (36/47)[K_bk;t=1775122394641remote: Counting objects:  78% (37/47)[K_bk;t=1775122394641remote: Counting objects:  80% (38/47)[K_bk;t=1775122394641remote: Counting objects:  82% (39/47)[K_bk;t=1775122394641remote: Counting objects:  85% (40/47)[K_bk;t=1775122394641remote: Counting objects:  87% (41/47)[K_bk;t=1775122394641remote: Counting objects:  89% (42/47)[K_bk;t=1775122394641remote: Counting objects:  91% (43/47)[K_bk;t=1775122394641remote: Counting objects:  93% (44/47)[K_bk;t=1775122394641remote: Counting objects:  95% (45/47)[K_bk;t=1775122394641remote: Counting objects:  97% (46/47)[K_bk;t=1775122394641remote: Counting objects: 100% (47/47)[K_bk;t=1775122394641remote: Counting objects: 100% (47/47), done.[K_bk;t=1775122394641
-_bk;t=1775122394641remote: Compressing objects:   2% (1/46)[K_bk;t=1775122394641remote: Compressing objects:   4% (2/46)[K_bk;t=1775122394641remote: Compressing objects:   6% (3/46)[K_bk;t=1775122394641remote: Compressing objects:   8% (4/46)[K_bk;t=1775122394641remote: Compressing objects:  10% (5/46)[K_bk;t=1775122394641remote: Compressing objects:  13% (6/46)[K_bk;t=1775122394641remote: Compressing objects:  15% (7/46)[K_bk;t=1775122394642remote: Compressing objects:  17% (8/46)[K_bk;t=1775122394697remote: Compressing objects:  19% (9/46)[K_bk;t=1775122394697remote: Compressing objects:  21% (10/46)[K_bk;t=1775122394697remote: Compressing objects:  23% (11/46)[K_bk;t=1775122394697remote: Compressing objects:  26% (12/46)[K_bk;t=1775122394697remote: Compressing objects:  28% (13/46)[K_bk;t=1775122394697remote: Compressing objects:  30% (14/46)[K_bk;t=1775122394697remote: Compressing objects:  32% (15/46)[K_bk;t=1775122394697remote: Compressing objects:  34% (16/46)[K_bk;t=1775122394697remote: Compressing objects:  36% (17/46)[K_bk;t=1775122394697remote: Compressing objects:  39% (18/46)[K_bk;t=1775122394697remote: Compressing objects:  41% (19/46)[K_bk;t=1775122394697remote: Compressing objects:  43% (20/46)[K_bk;t=1775122394697remote: Compressing objects:  45% (21/46)[K_bk;t=1775122394697remote: Compressing objects:  47% (22/46)[K_bk;t=1775122394697remote: Compressing objects:  50% (23/46)[K_bk;t=1775122394697remote: Compressing objects:  52% (24/46)[K_bk;t=1775122394697remote: Compressing objects:  54% (25/46)[K_bk;t=1775122394697remote: Compressing objects:  56% (26/46)[K_bk;t=1775122394697remote: Compressing objects:  58% (27/46)[K_bk;t=1775122394697remote: Compressing objects:  60% (28/46)[K_bk;t=1775122394697remote: Compressing objects:  63% (29/46)[K_bk;t=1775122394697remote: Compressing objects:  65% (30/46)[K_bk;t=1775122394697remote: Compressing objects:  67% (31/46)[K_bk;t=1775122394697remote: Compressing objects:  69% (32/46)[K_bk;t=1775122394697remote: Compressing objects:  71% (33/46)[K_bk;t=1775122394698remote: Compressing objects:  73% (34/46)[K_bk;t=1775122394698remote: Compressing objects:  76% (35/46)[K_bk;t=1775122394698remote: Compressing objects:  78% (36/46)[K_bk;t=1775122394698remote: Compressing objects:  80% (37/46)[K_bk;t=1775122394698remote: Compressing objects:  82% (38/46)[K_bk;t=1775122394698remote: Compressing objects:  84% (39/46)[K_bk;t=1775122394698remote: Compressing objects:  86% (40/46)[K_bk;t=1775122394698remote: Compressing objects:  89% (41/46)[K_bk;t=1775122394698remote: Compressing objects:  91% (42/46)[K_bk;t=1775122394698remote: Compressing objects:  93% (43/46)[K_bk;t=1775122394698remote: Compressing objects:  95% (44/46)[K_bk;t=1775122394698remote: Compressing objects:  97% (45/46)[K_bk;t=1775122394698remote: Compressing objects: 100% (46/46)[K_bk;t=1775122394698remote: Compressing objects: 100% (46/46), done.[K_bk;t=1775122394698
-_bk;t=1775122394698Receiving objects:   2% (1/47)Receiving objects:   4% (2/47)Receiving objects:   6% (3/47)remote: Total 47 (delta 13), reused 0 (delta 0), pack-reused 0 (from 0)[K_bk;t=1775122394699
-_bk;t=1775122394699Receiving objects:   8% (4/47)Receiving objects:  10% (5/47)Receiving objects:  12% (6/47)Receiving objects:  14% (7/47)Receiving objects:  17% (8/47)Receiving objects:  19% (9/47)Receiving objects:  21% (10/47)Receiving objects:  23% (11/47)Receiving objects:  25% (12/47)Receiving objects:  27% (13/47)Receiving objects:  29% (14/47)Receiving objects:  31% (15/47)Receiving objects:  34% (16/47)Receiving objects:  36% (17/47)Receiving objects:  38% (18/47)Receiving objects:  40% (19/47)Receiving objects:  42% (20/47)Receiving objects:  44% (21/47)Receiving objects:  46% (22/47)Receiving objects:  48% (23/47)Receiving objects:  51% (24/47)Receiving objects:  53% (25/47)Receiving objects:  55% (26/47)Receiving objects:  57% (27/47)Receiving objects:  59% (28/47)Receiving objects:  61% (29/47)Receiving objects:  63% (30/47)Receiving objects:  65% (31/47)Receiving objects:  68% (32/47)Receiving objects:  70% (33/47)Receiving objects:  72% (34/47)Receiving objects:  74% (35/47)Receiving objects:  76% (36/47)Receiving objects:  78% (37/47)Receiving objects:  80% (38/47)Receiving objects:  82% (39/47)Receiving objects:  85% (40/47)Receiving objects:  87% (41/47)Receiving objects:  89% (42/47)Receiving objects:  91% (43/47)Receiving objects:  93% (44/47)Receiving objects:  95% (45/47)Receiving objects:  97% (46/47)Receiving objects: 100% (47/47)Receiving objects: 100% (47/47), 20.07 KiB | 10.04 MiB/s, done.
-_bk;t=1775122394701Resolving deltas:   0% (0/13)Resolving deltas:   7% (1/13)Resolving deltas:  15% (2/13)Resolving deltas:  23% (3/13)Resolving deltas:  30% (4/13)Resolving deltas:  38% (5/13)Resolving deltas:  53% (7/13)Resolving deltas:  61% (8/13)Resolving deltas:  69% (9/13)Resolving deltas:  76% (10/13)Resolving deltas:  84% (11/13)Resolving deltas:  92% (12/13)Resolving deltas: 100% (13/13)Resolving deltas: 100% (13/13), done.
+_bk;t=1775122393558Cloning into '.'...
+
+_bk;t=1775122394640remote: Enumerating objects: 47, done.[K_bk;t=1775122394640
+
+_bk;t=1775122394640remote: Counting objects:   2% (1/47)[K_bk;t=1775122394640
+remote: Counting objects:   4% (2/47)[K_bk;t=1775122394640
+remote: Counting objects:   6% (3/47)[K_bk;t=1775122394640
+remote: Counting objects:   8% (4/47)[K_bk;t=1775122394640
+remote: Counting objects:  10% (5/47)[K_bk;t=1775122394640
+remote: Counting objects:  12% (6/47)[K_bk;t=1775122394640
+remote: Counting objects:  14% (7/47)[K_bk;t=1775122394640
+remote: Counting objects:  17% (8/47)[K_bk;t=1775122394640
+remote: Counting objects:  19% (9/47)[K_bk;t=1775122394640
+remote: Counting objects:  21% (10/47)[K_bk;t=1775122394640
+remote: Counting objects:  23% (11/47)[K_bk;t=1775122394641
+remote: Counting objects:  25% (12/47)[K_bk;t=1775122394641
+remote: Counting objects:  27% (13/47)[K_bk;t=1775122394641
+remote: Counting objects:  29% (14/47)[K_bk;t=1775122394641
+remote: Counting objects:  31% (15/47)[K_bk;t=1775122394641
+remote: Counting objects:  34% (16/47)[K_bk;t=1775122394641
+remote: Counting objects:  36% (17/47)[K_bk;t=1775122394641
+remote: Counting objects:  38% (18/47)[K_bk;t=1775122394641
+remote: Counting objects:  40% (19/47)[K_bk;t=1775122394641
+remote: Counting objects:  42% (20/47)[K_bk;t=1775122394641
+remote: Counting objects:  44% (21/47)[K_bk;t=1775122394641
+remote: Counting objects:  46% (22/47)[K_bk;t=1775122394641
+remote: Counting objects:  48% (23/47)[K_bk;t=1775122394641
+remote: Counting objects:  51% (24/47)[K_bk;t=1775122394641
+remote: Counting objects:  53% (25/47)[K_bk;t=1775122394641
+remote: Counting objects:  55% (26/47)[K_bk;t=1775122394641
+remote: Counting objects:  57% (27/47)[K_bk;t=1775122394641
+remote: Counting objects:  59% (28/47)[K_bk;t=1775122394641
+remote: Counting objects:  61% (29/47)[K_bk;t=1775122394641
+remote: Counting objects:  63% (30/47)[K_bk;t=1775122394641
+remote: Counting objects:  65% (31/47)[K_bk;t=1775122394641
+remote: Counting objects:  68% (32/47)[K_bk;t=1775122394641
+remote: Counting objects:  70% (33/47)[K_bk;t=1775122394641
+remote: Counting objects:  72% (34/47)[K_bk;t=1775122394641
+remote: Counting objects:  74% (35/47)[K_bk;t=1775122394641
+remote: Counting objects:  76% (36/47)[K_bk;t=1775122394641
+remote: Counting objects:  78% (37/47)[K_bk;t=1775122394641
+remote: Counting objects:  80% (38/47)[K_bk;t=1775122394641
+remote: Counting objects:  82% (39/47)[K_bk;t=1775122394641
+remote: Counting objects:  85% (40/47)[K_bk;t=1775122394641
+remote: Counting objects:  87% (41/47)[K_bk;t=1775122394641
+remote: Counting objects:  89% (42/47)[K_bk;t=1775122394641
+remote: Counting objects:  91% (43/47)[K_bk;t=1775122394641
+remote: Counting objects:  93% (44/47)[K_bk;t=1775122394641
+remote: Counting objects:  95% (45/47)[K_bk;t=1775122394641
+remote: Counting objects:  97% (46/47)[K_bk;t=1775122394641
+remote: Counting objects: 100% (47/47)[K_bk;t=1775122394641
+remote: Counting objects: 100% (47/47), done.[K_bk;t=1775122394641
+
+_bk;t=1775122394641remote: Compressing objects:   2% (1/46)[K_bk;t=1775122394641
+remote: Compressing objects:   4% (2/46)[K_bk;t=1775122394641
+remote: Compressing objects:   6% (3/46)[K_bk;t=1775122394641
+remote: Compressing objects:   8% (4/46)[K_bk;t=1775122394641
+remote: Compressing objects:  10% (5/46)[K_bk;t=1775122394641
+remote: Compressing objects:  13% (6/46)[K_bk;t=1775122394641
+remote: Compressing objects:  15% (7/46)[K_bk;t=1775122394642
+remote: Compressing objects:  17% (8/46)[K_bk;t=1775122394697
+remote: Compressing objects:  19% (9/46)[K_bk;t=1775122394697
+remote: Compressing objects:  21% (10/46)[K_bk;t=1775122394697
+remote: Compressing objects:  23% (11/46)[K_bk;t=1775122394697
+remote: Compressing objects:  26% (12/46)[K_bk;t=1775122394697
+remote: Compressing objects:  28% (13/46)[K_bk;t=1775122394697
+remote: Compressing objects:  30% (14/46)[K_bk;t=1775122394697
+remote: Compressing objects:  32% (15/46)[K_bk;t=1775122394697
+remote: Compressing objects:  34% (16/46)[K_bk;t=1775122394697
+remote: Compressing objects:  36% (17/46)[K_bk;t=1775122394697
+remote: Compressing objects:  39% (18/46)[K_bk;t=1775122394697
+remote: Compressing objects:  41% (19/46)[K_bk;t=1775122394697
+remote: Compressing objects:  43% (20/46)[K_bk;t=1775122394697
+remote: Compressing objects:  45% (21/46)[K_bk;t=1775122394697
+remote: Compressing objects:  47% (22/46)[K_bk;t=1775122394697
+remote: Compressing objects:  50% (23/46)[K_bk;t=1775122394697
+remote: Compressing objects:  52% (24/46)[K_bk;t=1775122394697
+remote: Compressing objects:  54% (25/46)[K_bk;t=1775122394697
+remote: Compressing objects:  56% (26/46)[K_bk;t=1775122394697
+remote: Compressing objects:  58% (27/46)[K_bk;t=1775122394697
+remote: Compressing objects:  60% (28/46)[K_bk;t=1775122394697
+remote: Compressing objects:  63% (29/46)[K_bk;t=1775122394697
+remote: Compressing objects:  65% (30/46)[K_bk;t=1775122394697
+remote: Compressing objects:  67% (31/46)[K_bk;t=1775122394697
+remote: Compressing objects:  69% (32/46)[K_bk;t=1775122394697
+remote: Compressing objects:  71% (33/46)[K_bk;t=1775122394698
+remote: Compressing objects:  73% (34/46)[K_bk;t=1775122394698
+remote: Compressing objects:  76% (35/46)[K_bk;t=1775122394698
+remote: Compressing objects:  78% (36/46)[K_bk;t=1775122394698
+remote: Compressing objects:  80% (37/46)[K_bk;t=1775122394698
+remote: Compressing objects:  82% (38/46)[K_bk;t=1775122394698
+remote: Compressing objects:  84% (39/46)[K_bk;t=1775122394698
+remote: Compressing objects:  86% (40/46)[K_bk;t=1775122394698
+remote: Compressing objects:  89% (41/46)[K_bk;t=1775122394698
+remote: Compressing objects:  91% (42/46)[K_bk;t=1775122394698
+remote: Compressing objects:  93% (43/46)[K_bk;t=1775122394698
+remote: Compressing objects:  95% (44/46)[K_bk;t=1775122394698
+remote: Compressing objects:  97% (45/46)[K_bk;t=1775122394698
+remote: Compressing objects: 100% (46/46)[K_bk;t=1775122394698
+remote: Compressing objects: 100% (46/46), done.[K_bk;t=1775122394698
+
+_bk;t=1775122394698Receiving objects:   2% (1/47)
+Receiving objects:   4% (2/47)
+Receiving objects:   6% (3/47)
+remote: Total 47 (delta 13), reused 0 (delta 0), pack-reused 0 (from 0)[K_bk;t=1775122394699
+
+_bk;t=1775122394699Receiving objects:   8% (4/47)
+Receiving objects:  10% (5/47)
+Receiving objects:  12% (6/47)
+Receiving objects:  14% (7/47)
+Receiving objects:  17% (8/47)
+Receiving objects:  19% (9/47)
+Receiving objects:  21% (10/47)
+Receiving objects:  23% (11/47)
+Receiving objects:  25% (12/47)
+Receiving objects:  27% (13/47)
+Receiving objects:  29% (14/47)
+Receiving objects:  31% (15/47)
+Receiving objects:  34% (16/47)
+Receiving objects:  36% (17/47)
+Receiving objects:  38% (18/47)
+Receiving objects:  40% (19/47)
+Receiving objects:  42% (20/47)
+Receiving objects:  44% (21/47)
+Receiving objects:  46% (22/47)
+Receiving objects:  48% (23/47)
+Receiving objects:  51% (24/47)
+Receiving objects:  53% (25/47)
+Receiving objects:  55% (26/47)
+Receiving objects:  57% (27/47)
+Receiving objects:  59% (28/47)
+Receiving objects:  61% (29/47)
+Receiving objects:  63% (30/47)
+Receiving objects:  65% (31/47)
+Receiving objects:  68% (32/47)
+Receiving objects:  70% (33/47)
+Receiving objects:  72% (34/47)
+Receiving objects:  74% (35/47)
+Receiving objects:  76% (36/47)
+Receiving objects:  78% (37/47)
+Receiving objects:  80% (38/47)
+Receiving objects:  82% (39/47)
+Receiving objects:  85% (40/47)
+Receiving objects:  87% (41/47)
+Receiving objects:  89% (42/47)
+Receiving objects:  91% (43/47)
+Receiving objects:  93% (44/47)
+Receiving objects:  95% (45/47)
+Receiving objects:  97% (46/47)
+Receiving objects: 100% (47/47)
+Receiving objects: 100% (47/47), 20.07 KiB | 10.04 MiB/s, done.
+
+_bk;t=1775122394701Resolving deltas:   0% (0/13)
+Resolving deltas:   7% (1/13)
+Resolving deltas:  15% (2/13)
+Resolving deltas:  23% (3/13)
+Resolving deltas:  30% (4/13)
+Resolving deltas:  38% (5/13)
+Resolving deltas:  53% (7/13)
+Resolving deltas:  61% (8/13)
+Resolving deltas:  69% (9/13)
+Resolving deltas:  76% (10/13)
+Resolving deltas:  84% (11/13)
+Resolving deltas:  92% (12/13)
+Resolving deltas: 100% (13/13)
+Resolving deltas: 100% (13/13), done.
+
 _bk;t=1775122394718[90m$[0m git clean -ffxdq
 _bk;t=1775122394722[90m# Fetch and checkout remote branch HEAD commit[0m
 _bk;t=1775122394722[90m$[0m git fetch -v --prune -- origin main
-_bk;t=1775122395926From github.com:collectivehealth/mx-web-testsigma-automation
-_bk;t=1775122395926 * branch            main       -> FETCH_HEAD
-_bk;t=1775122395926 = [up to date]      main       -> origin/main
+_bk;t=1775122395926From github.com:collectivehealth/mx-web-testsigma-automation
+
+_bk;t=1775122395926 * branch            main       -> FETCH_HEAD
+
+_bk;t=1775122395926 = [up to date]      main       -> origin/main
+
 _bk;t=1775122396018[90m$[0m git checkout -f FETCH_HEAD
-_bk;t=1775122396022Note: switching to 'FETCH_HEAD'.
-_bk;t=1775122396022
-_bk;t=1775122396022You are in 'detached HEAD' state. You can look around, make experimental
-_bk;t=1775122396022changes and commit them, and you can discard any commits you make in this
-_bk;t=1775122396022state without impacting any branches by switching back to a branch.
-_bk;t=1775122396022
-_bk;t=1775122396022If you want to create a new branch to retain commits you create, you may
-_bk;t=1775122396022do so (now or later) by using -c with the switch command. Example:
-_bk;t=1775122396022
-_bk;t=1775122396022  git switch -c <new-branch-name>
-_bk;t=1775122396022
-_bk;t=1775122396022Or undo this operation with:
-_bk;t=1775122396022
-_bk;t=1775122396022  git switch -
-_bk;t=1775122396022
-_bk;t=1775122396022Turn off this advice by setting config variable advice.detachedHead to false
-_bk;t=1775122396022
-_bk;t=1775122396022HEAD is now at 4ab375e Update testsigma-trigger.sh
+_bk;t=1775122396022Note: switching to 'FETCH_HEAD'.
+
+_bk;t=1775122396022
+
+_bk;t=1775122396022You are in 'detached HEAD' state. You can look around, make experimental
+
+_bk;t=1775122396022changes and commit them, and you can discard any commits you make in this
+
+_bk;t=1775122396022state without impacting any branches by switching back to a branch.
+
+_bk;t=1775122396022
+
+_bk;t=1775122396022If you want to create a new branch to retain commits you create, you may
+
+_bk;t=1775122396022do so (now or later) by using -c with the switch command. Example:
+
+_bk;t=1775122396022
+
+_bk;t=1775122396022  git switch -c <new-branch-name>
+
+_bk;t=1775122396022
+
+_bk;t=1775122396022Or undo this operation with:
+
+_bk;t=1775122396022
+
+_bk;t=1775122396022  git switch -
+
+_bk;t=1775122396022
+
+_bk;t=1775122396022Turn off this advice by setting config variable advice.detachedHead to false
+
+_bk;t=1775122396022
+
+_bk;t=1775122396022HEAD is now at 4ab375e Update testsigma-trigger.sh
+
 _bk;t=1775122396023[90m# Cleaning again to catch any post-checkout changes[0m
 _bk;t=1775122396023[90m$[0m git clean -ffxdq
 _bk;t=1775122396026[90m# Checking to see if git commit information needs to be sent to Buildkite...[0m
@@ -69,17 +264,30 @@
 _bk;t=1775122396976~~~ Bootstrapping phases plugin,command
 _bk;t=1775122397002~~~ Running agent environment hook
 _bk;t=1775122397002[90m$[0m /home/agent/buildkite/hooks/environment
-_bk;t=1775122397030:key: Setting up Github SSH Info
-_bk;t=1775122397040== Finished setting up ssh key ==
-_bk;t=1775122397040== Setting up Vault ==
-_bk;t=1775122397094  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-_bk;t=1775122397094                                 Dload  Upload   Total   Spent    Left  Speed
-_bk;t=1775122397094  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  2042  100   694  100  1348   4718   9164 --:--:-- --:--:-- --:--:-- 13986
-_bk;t=1775122397403# github.com:22 SSH-2.0-7978730
-_bk;t=1775122397677# github.com:22 SSH-2.0-7978730
-_bk;t=1775122397993# github.com:22 SSH-2.0-7978730
-_bk;t=1775122398287# github.com:22 SSH-2.0-7978730
-_bk;t=1775122398363# github.com:22 SSH-2.0-7978730
+_bk;t=1775122397030:key: Setting up Github SSH Info
+
+_bk;t=1775122397040== Finished setting up ssh key ==
+
+_bk;t=1775122397040== Setting up Vault ==
+
+_bk;t=1775122397094  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+
+_bk;t=1775122397094                                 Dload  Upload   Total   Spent    Left  Speed
+
+_bk;t=1775122397094
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100  2042  100   694  100  1348   4718   9164 --:--:-- --:--:-- --:--:-- 13986
+
+_bk;t=1775122397403# github.com:22 SSH-2.0-7978730
+
+_bk;t=1775122397677# github.com:22 SSH-2.0-7978730
+
+_bk;t=1775122397993# github.com:22 SSH-2.0-7978730
+
+_bk;t=1775122398287# github.com:22 SSH-2.0-7978730
+
+_bk;t=1775122398363# github.com:22 SSH-2.0-7978730
+
 _bk;t=1775122398469[90m# VAULT_TOKEN added[0m
 _bk;t=1775122398469[90m# BUILD_NUMBER added[0m
 _bk;t=1775122398469[90m# VAULT_ADDR added[0m
@@ -88,14 +296,22 @@
 _bk;t=1775122398470[90m$[0m cd /workspace/build/buildkite
 _bk;t=1775122398470~~~ Running agent pre-command hook
 _bk;t=1775122398470[90m$[0m /home/agent/buildkite/hooks/pre-command
-_bk;t=1775122398499Setting up SDKMAN
-_bk;t=1775122398544Setting up NVM
-_bk;t=1775122398791Setting up SSH
-_bk;t=1775122398940# github.com:22 SSH-2.0-7978730
-_bk;t=1775122399215# github.com:22 SSH-2.0-7978730
-_bk;t=1775122399511# github.com:22 SSH-2.0-7978730
-_bk;t=1775122399803# github.com:22 SSH-2.0-7978730
-_bk;t=1775122399880# github.com:22 SSH-2.0-7978730
+_bk;t=1775122398499Setting up SDKMAN
+
+_bk;t=1775122398544Setting up NVM
+
+_bk;t=1775122398791Setting up SSH
+
+_bk;t=1775122398940# github.com:22 SSH-2.0-7978730
+
+_bk;t=1775122399215# github.com:22 SSH-2.0-7978730
+
+_bk;t=1775122399511# github.com:22 SSH-2.0-7978730
+
+_bk;t=1775122399803# github.com:22 SSH-2.0-7978730
+
+_bk;t=1775122399880# github.com:22 SSH-2.0-7978730
+
 _bk;t=1775122399988[90m# NVM_INC added[0m
 _bk;t=1775122399988[90m# MAVEN_HOME added[0m
 _bk;t=1775122399988[90m# NVM_CD_FLAGS added[0m
@@ -114,20 +330,37 @@
 _bk;t=1775122399988./testsigma-trigger.sh
 _bk;t=1775122399988ls -la
 _bk;t=1775122399988find . -name "*.xml"
-_bk;t=1775122400047Reading package lists... 0%Reading package lists... 0%Reading package lists... 17%Reading package lists... Done
-_bk;t=1775122400076E: List directory /var/lib/apt/lists/partial is missing. - Acquire (13: Permission denied)
-_bk;t=1775122400076W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list.d/google-chrome.list:3 and /etc/apt/sources.list.d/google.list:1
-_bk;t=1775122400076W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list.d/google-chrome.list:3 and /etc/apt/sources.list.d/google.list:1
-_bk;t=1775122400081Triggering Testsigma Test Plan...
+_bk;t=1775122400047
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 17%
+
+Reading package lists... Done
+
+
+_bk;t=1775122400076E: List directory /var/lib/apt/lists/partial is missing. - Acquire (13: Permission denied)
+
+_bk;t=1775122400076W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list.d/google-chrome.list:3 and /etc/apt/sources.list.d/google.list:1
+
+_bk;t=1775122400076W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list.d/google-chrome.list:3 and /etc/apt/sources.list.d/google.list:1
+
+_bk;t=1775122400081Triggering Testsigma Test Plan...
+
 _bk;t=1775122400103^^^ +++
 _bk;t=1775122400103[31m🚨 Error: The command exited with status 6[0m
 _bk;t=1775122400103^^^ +++
 _bk;t=1775122400103user command error: exit status 6
 _bk;t=1775122400103~~~ Uploading artifacts
 _bk;t=1775122400103[90m$[0m /workspace/buildkite-agent artifact upload junit-report.xml;testsigma.json rt://buildkite/build-019d4d8a-0bb5-4c57-bb8d-2792a6d4d13f
-_bk;t=1775122400124[33m2026-04-02 09:33:20 WARN  [0m [0mCouldn't walk path junit-report.xml[0m
-_bk;t=1775122400124[33m2026-04-02 09:33:20 WARN  [0m [0mCouldn't walk path testsigma.json[0m
-_bk;t=1775122400124[38;5;48m2026-04-02 09:33:20 INFO  [0m [0mNo files matched paths: junit-report.xml;testsigma.json[0m
+_bk;t=1775122400124[33m2026-04-02 09:33:20 WARN  [0m [0mCouldn't walk path junit-report.xml[0m
+
+_bk;t=1775122400124[33m2026-04-02 09:33:20 WARN  [0m [0mCouldn't walk path testsigma.json[0m
+
+_bk;t=1775122400124[38;5;48m2026-04-02 09:33:20 INFO  [0m [0mNo files matched paths: junit-report.xml;testsigma.json[0m
+
 _bk;t=1775122400126~~~ Running agent pre-exit hook
 _bk;t=1775122400128[90m$[0m /home/agent/buildkite/hooks/pre-exit
-_bk;t=1775122400155--- Writing Pod Termination File to Signal Services
+_bk;t=1775122400155--- Writing Pod Termination File to Signal Services
+
