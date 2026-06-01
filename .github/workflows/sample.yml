@@ -1,9 +1,8 @@
 # This is a basic workflow to help you get started with Actions
-
 name: 'On Changes to Github-actions'
 
 # Controls when the workflow will run
-on: 
+on:
   push:
     branches:
       - 'main'
@@ -20,18 +19,18 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
-
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
       - name: Run Testsigma Automation Suites
         run: |
           cd ${{ github.workspace }}/testsigma
           chmod a+x tesarun_smoke_tests.sh
           ./tesarun_smoke_tests.sh
 
+      - name: Upload Testsigma Reports
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: testsigma-reports
+          path: |
+            ${{ github.workspace }}/testsigma/junit-report.xml
+            ${{ github.workspace }}/testsigma/testsigma.json
+            ${{ github.workspace }}/testsigma/testsigma-report.html
